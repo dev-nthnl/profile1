@@ -1,0 +1,88 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+@import url(http://allfont.net/allfont.css?fonts=agency-fb);
+
+@media (max-width: 797px) {
+  body {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+.profile-pic img {
+  padding-top: 10px;
+  width: 50%;
+  max-width: 200px;
+}
+
+.container-fluid {
+  padding: 0px;
+}
+
+h1 {
+  font-family: Lobster, Monospace;
+  font-size: 4em;
+}
+
+h2 {
+  font-family: Agency FB;
+  font-size: 3em;
+}
+
+p {
+  font-family: Agency FB;
+  font-size: 1.5em;
+  color: black;
+}
+
+.intro-header {
+  text-align: center;
+  background: url("https://40.media.tumblr.com/1b916597d3e174399cb7adadddb66ede/tumblr_nt5uk4psl31ud7rr3o1_1280.jpg") no-repeat center center fixed;
+  background-color: yellow;
+  background-size: auto;
+  height: 100%;
+  padding-top: 50px
+}
+
+.media {
+  margin: 15px;
+}
+
+.btn-group {
+  padding-bottom: 20px;
+}
+
+#overlay {
+  background: #CCC;
+  filter: alpha(opacity=60);
+  opacity: 0.60;
+  border-radius: 50px;
+  margin-top: 10px;
+  margin-right: 10px;
+  padding: 0px 0% 5% 5%;
+}
+
+.section2 {
+  background: url("https://41.media.tumblr.com/9de4b38b56ef36de15ec586a1d86e338/tumblr_o3qled3Me61v9xwqlo1_1280.jpg") no-repeat center center fixed;
+  background-color: yellow;
+  height: 500px;
+  background-size: cover;
+  padding-left: 50px;
+  padding-top: 15%;
+}
+
+.section3 {
+  background: url("https://40.media.tumblr.com/e057411ea6131dfecb5c551dfc49a580/tumblr_o3qrqgbDY01v9xwqlo1_1280.jpg") no-repeat center center fixed;
+  background-color: yellow;
+  height: 600px;
+  background-size: cover;
+  padding-left: 50px;
+  padding-top: 15%;
+}
+
+#navbar {
+  background-color: black;
+}
+
+#title{
+  color: white;
+}
